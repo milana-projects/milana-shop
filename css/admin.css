@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    border: 1px solid #da70ef;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  input {
+    width: 90%;
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button.save-btn {
+    background-color: #da70ef;
+    color: white;
+    border: none;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  button.save-btn:hover {
+    background-color: #b452cd;
+  }
+  

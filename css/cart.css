@@ -1,0 +1,39 @@
+#cart-items {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  
+  #cart-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .product {
+    background: white;
+    border: 1px solid #da70ef;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Плавный переход */
+  }
+  
+  .product img {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px); /* Поднимает карточку вверх */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Увеличивает тень */
+    border-color: #b452cd; /* Изменяет цвет границы при наведении */
+  }
+  
